@@ -127,7 +127,7 @@ cli-aliases:
     provisioning: cloud
   report:
     reporting:
-    - blazemeter
+    - console
   public:
     modules:
       blazemeter:

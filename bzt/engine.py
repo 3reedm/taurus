@@ -514,6 +514,7 @@ class Engine(object):
         self.prepared.append(self.provisioning)
         self.provisioning.prepare()
 
+    # TODO подумать, как отключить сервер bmt
     def __prepare_reporters(self):
         """
         Instantiate reporters, then prepare them in case they would like to interact
